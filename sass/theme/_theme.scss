@@ -1,0 +1,58 @@
+@import './home';
+@import './location';
+ 
+body {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+.h100p {
+    height: 100%;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.lh88 {
+    line-height: 5.5rem;
+}
+
+.lh65 {
+    line-height: 4.0625rem;
+}
+
+.prelative {
+    position: relative;
+}
+
+.lh60 {
+    line-height: 3.75rem;
+}
+
+.lh28 {
+    line-height: 1.75rem;
+}
+
+.lh35 {
+    line-height: 2.1875rem;
+}
+
+.ls4 {
+    letter-spacing: 0.25rem;
+}
+
+.fill-black {
+    fill: red !important;
+}

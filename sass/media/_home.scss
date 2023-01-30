@@ -1,0 +1,184 @@
+@media (max-width:1899px) {
+    .contenedor-parrafo-derecho-primera-seccion-home {
+        margin-bottom: 9%;
+    }
+
+    #parrafo-izquierdo-primera-seccion-home {
+
+        left: 14%;
+    }
+}
+
+@media (max-width:1799px) {
+    #parrafo-izquierdo-primera-seccion-home {
+        left: 13%;
+    }
+}
+
+@media (max-width:1699px) {
+    #parrafo-izquierdo-primera-seccion-home {
+        left: 12%;
+    }
+}
+
+@media (max-width:1599px) {
+    #parrafo-izquierdo-primera-seccion-home {
+        left: 13%;
+    }
+}
+
+@media (max-width:1499px) {
+    #parrafo-izquierdo-primera-seccion-home {
+        left: 12%;
+    }
+
+    .contenedor-parrafo-derecho-primera-seccion-home {
+        width: 31%;
+
+    }
+
+    .btn_location {
+        width: 90%;
+
+    }
+}
+
+@media (max-width:1399px) {
+    #parrafo-izquierdo-primera-seccion-home {
+        left: 10%;
+    }
+
+
+}
+
+@media (max-width:1226px) {
+    #parrafo-izquierdo-primera-seccion-home {
+        left: 9%;
+    }
+}
+
+@media (max-width:1199px) {
+    #parrafo-izquierdo-primera-seccion-home {
+        left: 7%;
+    }
+}
+
+
+// ipad
+
+@media (min-width:992px) {
+    .d-none-pc {
+        display: none;
+    }
+}
+
+@media (max-width:991px)  {
+    .bg1-home {
+            background-image: url(../images/tablet/image-hero.jpg);
+            background-size: contain;
+            background-position: left;
+            height: 60vh;
+        }
+
+        .bg-negro-blanco {
+            background: transparent;
+        }
+
+        #parrafo-izquierdo-primera-seccion-home , #span_n {
+            display: none;
+        }
+
+        #contenedor-derecho {
+            flex-direction: column;
+            align-items: flex-end!important;
+        }
+
+        .contenedor-parrafo-derecho-primera-seccion-home {
+            width: 46%;
+            margin-bottom: 25%;
+        }
+
+        #parrafo-derecho-primera-seccion-home {
+            font-size: 0.9375rem!important;
+            line-height: 1.75rem!important;
+            margin-top: 1.4rem!important;
+        }
+
+        .size50ipad {
+            font-size: 3.1875rem!important;
+        }
+
+        .d-none-ipad {
+            display: none;
+        }
+        .size18ipad {
+            font-size: 1.125rem!important;
+        }
+             
+}
+
+@media (max-width:769px) {
+  
+
+   
+
+
+    .contenedor-parrafo-derecho-primera-seccion-home {
+        width: 48%;
+        margin-bottom: 25%;
+    }
+
+
+
+}
+
+@media (max-width:680px) {
+
+   
+
+    .bg1-home {
+        background-image: none;
+        height: auto;
+
+    }
+
+    #contenedor-derecho {
+        align-items: center !important;
+    }
+
+ 
+    #parrafo-izquierdo-primera-seccion-home-ipad-mobile {
+        font-size: 3.75rem !important;
+        line-height: 3.4375rem;
+        margin-top: 1.25rem;
+        width: 90%;
+    }
+
+    .contenedor-parrafo-derecho-primera-seccion-home {
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .btn_location {
+        width: 80%;
+        height: 4.5rem;
+        margin-top: 12%;
+    }
+
+    #parrafo-yourdaygallery {
+        font-size: 3.125rem !important;
+        line-height: 2.8125rem !important;
+        margin-top: 1.25rem;
+    }
+
+    .cuadrado-negro-inspirar {
+        padding:1.25rem 0;
+    }
+
+    .cuadrado-negro-inspirar>div p:first-child {
+        font-size: 3.125rem !important;
+        line-height: 2.8125rem;
+    }
+
+ 
+}

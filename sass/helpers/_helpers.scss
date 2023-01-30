@@ -1,0 +1,82 @@
+/* BG COLORES */
+@each $key,
+$value in $colores {
+  .bg-#{$key} {
+    background-color: $value;
+  }
+}
+
+/* COLORES */
+@each $key,
+$value in $colores {
+  .#{$key} {
+    color: $value;
+  }
+}
+
+
+@if $active_class_helpers ==true {
+
+
+
+  /* WITDH 5% */
+  @for $i from 1 to 101 {
+    .w#{$i} {
+      width: $i * 1% !important;
+    }
+  }
+
+  @for $i from 0 to 201 {
+    .size#{$i} {
+      $remSize: $i / 16;
+      font-size: #{$remSize}rem !important;
+    }
+  }
+
+  /* MARGIN */
+  @for $i from 0 to 201 {
+    .mt#{$i} {
+      $remSize: $i / 16;
+      margin-top: $remSize * 1rem;
+    }
+
+    .mr#{$i} {
+      $remSize: $i / 16;
+      margin-right: $remSize * 1rem;
+    }
+
+    .mb#{$i} {
+      $remSize: $i / 16;
+      margin-bottom: $remSize * 1rem;
+
+    }
+
+    .ml#{$i} {
+      $remSize: $i / 16;
+      margin-left: $remSize * 1rem;
+    }
+  }
+
+  /* PADING */
+  @for $i from 0 to 201 {
+    .pt#{$i} {
+      $remSize: $i / 16;
+      padding-top: $remSize * 1rem;
+    }
+
+    .pr#{$i} {
+      $remSize: $i / 16;
+      padding-right: $remSize * 1rem;
+    }
+
+    .pb#{$i} {
+      $remSize: $i / 16;
+      padding-bottom: $remSize * 1rem;
+    }
+
+    .pl#{$i} {
+      $remSize: $i / 16;
+      padding-left: $remSize * 1rem;
+    }
+  }
+}

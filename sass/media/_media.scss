@@ -1,0 +1,30 @@
+@import './home';
+@import './font';
+@import './location';
+
+@media (max-width:680px) {
+
+    .d-none-mobile {
+        display: none;
+    }
+
+    .d-block-mobile {
+        display: block !important;
+    }
+
+    .order2mobile {
+        order: 2;
+    }
+
+    .justify-content-start-mobile {
+        justify-content: flex-start !important;
+    }
+
+    .mtx30mobile {
+        margin: 1.875rem 0;
+    }
+
+    .mt5remmobile {
+        margin-top: 5rem;
+    }
+}

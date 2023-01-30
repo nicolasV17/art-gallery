@@ -1,0 +1,22 @@
+//config
+
+$active_class_helpers:true;
+
+//colores
+$color_blanco: #ffffff;
+$color_negro: #000000;
+$color_azul: #2A343D;
+$color_gris: #707070;
+$color_rosado:#D5966C;
+$color_negro15:#151515;
+$color_gris4:#444444;
+
+$colores: (
+        blanco: $color_blanco,
+        negro: $color_negro,
+        azul: $color_azul,
+        gris: $color_gris,
+        rosado:$color_rosado,
+        negro15:$color_negro15,
+        gris4:$color_gris4
+)

@@ -1,0 +1,32 @@
+@media (max-width:991px) {
+    .bg-mapa-location {
+        background-image: url(../images/tablet/image-map.png);
+        height: 73vh;
+    }
+
+    .btn_location.location {
+        width: 35%;
+        height: 4.5rem;
+        left: 9%;
+    }
+}
+
+@media (max-width:680px) {
+    .btn_location.location {
+        width: 70%;
+        left: 0;
+    }
+
+    #our-location-location-mobile {
+        font-size: 3.125rem !important;
+        line-height: 2.8125rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .bg-mapa-location {
+        background-image: url(../images/mobile/image-map.png);
+        height: 73vh;
+    }
+
+
+}

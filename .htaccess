@@ -1,0 +1,11 @@
+# Activar RewriteEngine
+RewriteEngine on
+
+DirectoryIndex index.php
+
+#Acceso menu
+RewriteRule ^error?$ 404.php
+RewriteRule ^home?$ index.php
+RewriteRule ^location?$ location.php
+
+ 

@@ -1,0 +1,54 @@
+#our-location-location {
+    line-height: 4.375rem;
+}
+
+#contenedor-our-location {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+#king-street-location {
+    line-height: 2.25rem;
+}
+
+.king-street-info {
+    line-height: 2rem;
+}
+
+#our-newly-location {
+    padding-right: 10%;
+}
+
+.footer-location {
+    margin-top: 0 !important;
+    background-color: #D5966C !important;
+}
+
+.footer-location p {
+    color: #151515 !important;
+}
+
+.svg>path {
+    fill: #151515 !important;
+    stroke: #151515 !important;
+}
+
+.bg-mapa-location {
+    background-image: url(../images/desktop/image-map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 73vh;
+}
+
+.btn_location.location {
+    width: 20%;
+    height: 4.5rem;
+    margin-top: 0;
+    position: absolute;
+    left: 9%;
+}
+
+.order2 {
+    order: 2;
+}
