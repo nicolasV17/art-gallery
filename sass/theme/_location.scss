@@ -47,8 +47,23 @@
     margin-top: 0;
     position: absolute;
     left: 9%;
+    z-index: 999;
 }
 
 .order2 {
     order: 2;
+}
+
+/* leaftleft */
+#map {
+    height: 73vh;
+}
+
+.leaflet-tile-pane {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.leaflet-container {
+    font-family: "Big Shoulders Display", cursive !important;
 }

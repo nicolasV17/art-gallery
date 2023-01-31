@@ -9,6 +9,10 @@
         height: 4.5rem;
         left: 9%;
     }
+
+    .leaflet-top {
+        top: 100px !important;
+    }
 }
 
 @media (max-width:680px) {
@@ -27,6 +31,8 @@
         background-image: url(../images/mobile/image-map.png);
         height: 73vh;
     }
+
+
 
 
 }

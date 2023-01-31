@@ -16,5 +16,14 @@
     margin-bottom: 17%;
 }
 
+#icon-twitter , #icon-facebook , #icon-instagram {
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+#icon-twitter:hover , #icon-facebook:hover , #icon-instagram:hover {
+    background-color: #D5966C;
+}
+
 
 

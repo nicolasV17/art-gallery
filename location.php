@@ -2,8 +2,8 @@
 
 <body>
 
-    <!--location mapa -->
-    <div class="container-fluid">
+    <!--location mapa sin leaflet -->
+    <!-- <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 pl0 pr0 bg-mapa-location prelative">
                 <div class="d-flex btn_location location">
@@ -14,11 +14,25 @@
                         <img src="images/icon/icon-arrow-left.svg" alt="flecha-atras" class="img-fluid">
                     </div>
                 </div>
-                <!-- <img src="images/desktop/image-map.png" alt="mapa" class="img-fluid"> -->
+            </div>
+        </div>
+    </div> -->
+
+    <!--location mapa con leaflet -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 pl0 pr0  prelative" id="map">
+                <div class="d-flex btn_location location">
+                    <div class="d-flex justify-content-center align-items-center bg-negro15 blanco order2">
+                        <p class="mb0 blanco size20 fw-bold"> BACK TO HOME</p>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center bg-rosado" onclick="go('home')">
+                        <img src="images/icon/icon-arrow-left.svg" alt="flecha-atras" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
     <!--our-location-->
     <div class="container-fluid bg-negro15" id="contenedor-our-location">
         <div class="row">

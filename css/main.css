@@ -27,6 +27,15 @@ ul {
   margin-bottom: 17%;
 }
 
+#icon-twitter, #icon-facebook, #icon-instagram {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#icon-twitter:hover, #icon-facebook:hover, #icon-instagram:hover {
+  background-color: #D5966C;
+}
+
 .btn_location {
   width: 80%;
   height: 72px;
@@ -7841,10 +7850,25 @@ ul {
   margin-top: 0;
   position: absolute;
   left: 9%;
+  z-index: 999;
 }
 
 .order2 {
   order: 2;
+}
+
+/* leaftleft */
+#map {
+  height: 73vh;
+}
+
+.leaflet-tile-pane {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.leaflet-container {
+  font-family: "Big Shoulders Display", cursive !important;
 }
 
 body {
@@ -8068,6 +8092,10 @@ body {
     width: 35%;
     height: 4.5rem;
     left: 9%;
+  }
+
+  .leaflet-top {
+    top: 100px !important;
   }
 }
 @media (max-width: 680px) {
